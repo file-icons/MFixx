@@ -23,9 +23,3 @@ reset:
 .PHONY: downcase
 downcase: $(svg)
 	@f=($(svg)); for i in "$${f[@]}"; do d=$$(echo "$$i" | tr '[A-Z]' '[a-z]'); mv "$$i" "$$d"; done
-
-
-# Update the charmap's "Name" column using each row's "data-s" attribute
-.PHONY: synced-names
-synced-names:
-	@perl -p -i -e 's/(<tbody data-s=")([^"]+)(".+<b>)[^<]+(<\/b>.+$$)/$$1$$2$$3$$2$$4/gmi' $(charmap)
