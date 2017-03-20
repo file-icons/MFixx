@@ -11,7 +11,6 @@ These codepoints are locked in stone: once set, they're guaranteed never to chan
 			<th>Codepoint</th>
 		</tr>
 	</thead>
-	
 	<!-- Multiple tbodies used to suppress GitHub's ugly backgrounds applied to every second <tr> node -->
 	<tbody><tr><td align="center"><a name="3D Printing" href="https://cdn.rawgit.com/Alhadis/MFixx/master/svg/3dprint.svg"><img src="https://cdn.rawgit.com/Alhadis/MFixx/master/svg/3dprint.svg" height="34" valign="bottom" hspace="3" alt=""/></a></td><td><b>3D Printing</b></td><td><a name="F100"></a><code>\F100</code></td></tr></tbody>
 	<tbody><tr><td align="center"><a name="Angular" href="https://cdn.rawgit.com/Alhadis/MFixx/master/svg/angular.svg"><img src="https://cdn.rawgit.com/Alhadis/MFixx/master/svg/angular.svg" height="34" valign="bottom" hspace="3" alt=""/></a></td><td><b>Angular</b></td><td><a name="E908"></a><code>\E908</code></td></tr></tbody>
